@@ -98,7 +98,6 @@ body {
   }
 }
 [type='range'] {
-  -webkit-appearance: none;
   margin: 12.5px 0;
   width: 100%;
 }
