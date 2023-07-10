@@ -92,6 +92,12 @@ body {
   cursor: pointer;
 }
 
+.drum-pad {
+  background-color: grey;
+  margin-top: 10px;
+  box-shadow: black 3px 3px 5px;
+}
+
 @media screen and (max-width: 650px) {
   .inner-container {
     transform: scale(0.7);

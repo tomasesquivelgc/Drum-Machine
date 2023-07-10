@@ -1,5 +1,6 @@
 import {  } from 'react'
 import './App.css'
+import PadBank from './components/PadBank'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <div className='inner-container' id="drum-machine">
-        <div className='pad-bank'></div>
+      <PadBank />
         <div id="logo">
           <div className='inner-logo'>FCC</div>
           <i className='inner-logo fa fa-fire'></i>
