@@ -11,7 +11,7 @@ function App() {
       <PadBank />
         <div id="logo">
           <div className='inner-logo'>FCC</div>
-          <i className='inner-logo fa fa-fire'></i>
+          <i className='inner-logo'></i>
         </div>
       </div>
     </>
