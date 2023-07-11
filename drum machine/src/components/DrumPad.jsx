@@ -1,9 +1,11 @@
 import React from "react";
 
-const DrumPad = ({ padKey, id }) => {
+const DrumPad = ({ padKey, id, src }) => {
   return (
     <>
-    <div className="drum-pad" id={id}>{padKey}</div>
+    <div className="drum-pad" id={id}>
+      <audio src={src} className="clip" id={padKey}></audio>
+      {padKey}</div>
     </>
   )
 }
