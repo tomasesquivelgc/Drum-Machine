@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const DrumPad = ({ padKey, id, src }) => {
+const DrumPad = ({ padKey, id, src, setCurrentPadId }) => {
   const [isActive, setIsActive] = useState(false);
 
   const playAudio = () => {
@@ -8,6 +8,7 @@ const DrumPad = ({ padKey, id, src }) => {
     audioElement.currentTime = 0; // Reset the audio clip to the beginning
     audioElement.play();
     setIsActive(true);
+    setCurrentPadId(id);
     setTimeout(() => {
       setIsActive(false);
     }, 100); // Change the timeout value to adjust the duration of the active state
@@ -36,7 +37,6 @@ const DrumPad = ({ padKey, id, src }) => {
         className={`drum-pad ${isActive ? "active" : ""}`}
         id={id}
         onClick={handleClick}
-        tabIndex="0"
       >
         <audio src={src} className="clip" id={padKey}></audio>
         {padKey}
