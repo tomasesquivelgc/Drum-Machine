@@ -1,20 +1,21 @@
-import {  } from 'react'
-import './App.css'
-import PadBank from './components/PadBank'
-import ControlContainer from './components/Controls'
-import Logo from './components/logo'
+import React, { useState } from 'react';
+import './App.css';
+import PadBank from './components/PadBank';
+import ControlContainer from './components/Controls';
+import Logo from './components/logo';
 
 function App() {
+  const [currentPadId, setCurrentPadId] = useState('');
 
   return (
     <>
       <div className="inner-container" id="drum-machine">
-        <PadBank />
+        <PadBank setCurrentPadId={setCurrentPadId} />
         <Logo />
-        <ControlContainer />
+        <ControlContainer currentPadId={currentPadId} />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
