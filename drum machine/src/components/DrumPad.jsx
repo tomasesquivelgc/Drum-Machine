@@ -1,9 +1,9 @@
 import React from "react";
 
-const DrumPad = ({ padKey }) => {
+const DrumPad = ({ padKey, id }) => {
   return (
     <>
-    <div className="drum-pad">{padKey}</div>
+    <div className="drum-pad" id={id}>{padKey}</div>
     </>
   )
 }

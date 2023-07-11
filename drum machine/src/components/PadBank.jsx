@@ -5,15 +5,15 @@ const PadBank = () => {
   return (
     <>
       <div className='pad-bank'>
-        <DrumPad padKey="Q" />
-        <DrumPad padKey="W" />
-        <DrumPad padKey="E" />
-        <DrumPad padKey="A" />
-        <DrumPad padKey="S" />
-        <DrumPad padKey="D" />
-        <DrumPad padKey="Z" />
-        <DrumPad padKey="X" />
-        <DrumPad padKey="C" />
+        <DrumPad padKey="Q" id={"Chord-1"} />
+        <DrumPad padKey="W" id={"Chord-2"} />
+        <DrumPad padKey="E" id={"Chord-3"} />
+        <DrumPad padKey="A" id={"Shaker"} />
+        <DrumPad padKey="S" id={"Open-HH"} />
+        <DrumPad padKey="D" id={"Closed-HH"} />
+        <DrumPad padKey="Z" id={"Punchy-Kick"} />
+        <DrumPad padKey="X" id={"Side-Stick"} />
+        <DrumPad padKey="C" id={"Snare"} />
       </div>
     </>
   )
