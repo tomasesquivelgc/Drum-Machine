@@ -100,6 +100,8 @@ body {
 
 .active {
   background-color: orange;
+  box-shadow: orange 0px 3px;
+  height: 77px;
 }
 
 @media screen and (max-width: 650px) {
