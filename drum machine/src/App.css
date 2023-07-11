@@ -98,6 +98,10 @@ body {
   box-shadow: black 3px 3px 5px;
 }
 
+.active {
+  background-color: orange;
+}
+
 @media screen and (max-width: 650px) {
   .inner-container {
     transform: scale(0.7);
