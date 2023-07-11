@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import PadBank from './components/PadBank';
 import ControlContainer from './components/Controls';
-import Logo from './components/logo';
+import Logo from './components/Logo';
 
 function App() {
   const [currentPadId, setCurrentPadId] = useState('');
