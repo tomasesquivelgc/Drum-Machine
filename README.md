@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Markdown previewer <a name="about-project"></a>
+# 📖 Drum Machine <a name="about-project"></a>
 
 **Drum Machine** is a simple project that aims to clone [FreeCodeCamp's version](https://drum-machine.freecodecamp.rocks). To do this, I have built a page using React (Vite) and copied the CSS to get the same look. Some of the functionalities are still missing (volume control and power/bank switches) but the basic requirements are met.
 
