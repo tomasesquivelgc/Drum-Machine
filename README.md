@@ -43,7 +43,6 @@
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://vitejs.dev">Vite</a></li>
-    <li><a href="https://cdnjs.com/libraries/marked">Marked</a></li>
   </ul>
   <summary>Languages</summary>
   <ul>
